@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadastrarActivity">
+
+    <EditText
+        android:id="@+id/txt_loginCadastrar"
+        android:hint="E-mail"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/txt_senhaCadastrar"
+        android:hint="Senha"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/txt_nomeCadastrar"
+        android:hint="Nome"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        android:text="Cadastrar"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="270dp"
+        android:layout_height="45dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#18c78c"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="cadastrar"/>
+
+</LinearLayout>
